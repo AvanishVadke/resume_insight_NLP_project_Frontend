@@ -140,7 +140,7 @@ export function ResumeTabs({
         <Button
           onClick={onAnalyze}
           disabled={!canAnalyze}
-          className="px-8 font-bold"
+          className="px-8 font-bold cursor-pointer"
         >
           Analyze Resume
         </Button>

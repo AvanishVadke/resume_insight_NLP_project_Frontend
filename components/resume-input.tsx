@@ -39,7 +39,7 @@ export function ResumeInput({ value, onChange, onAnalyze, onMatch, disabled, cla
           <Button variant="secondary" onClick={onMatch} disabled={disabled || !value.trim()} aria-label="Match skills">
             Match Skills
           </Button>
-          <Button onClick={onAnalyze} disabled={disabled || !value.trim()} aria-label="Analyze resume">
+          <Button onClick={onAnalyze} disabled={disabled || !value.trim()} aria-label="Analyze resume" className="cursor-pointer">
             Analyze Resume
           </Button>
         </div>
