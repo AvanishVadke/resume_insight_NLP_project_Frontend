@@ -1,6 +1,7 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "resume-insights-frontend",
+  "version": "1.0.0",
+  "description": "Frontend application for Resume Insights - NLP-powered resume analysis and job matching",
   "private": true,
   "scripts": {
     "dev": "next dev",
